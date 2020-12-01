@@ -1,12 +1,19 @@
 ---
 layout: post
-title: Example Content
+title: Drongengoedbos 
+rating: 1
+image: 
+ path: /assets/img/blog/drongengoedbos.jpg
+ srcset:
+    1152w: /assets/img/blog/drongengoedbos.jpg
+    576w:  /assets/img/blog/drongengoedbos50%.jpg
+    288w:  /assets/img/blog/drongengoedbos25%.jpg
 description: >
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  "Dichter bij een inlandse safari kom je niet"  zegt de beschrijving.  Daar is geen woord van gelogen.  De wandeling eindigt met een erg leuk speelbos.
 sitemap: false
 ---
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+ Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 

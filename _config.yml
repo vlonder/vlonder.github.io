@@ -25,11 +25,10 @@ title:                 Vlonder
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Vlonder is een blog over kindvriendelijke wandelingen.  In de blogposts vind je een review van de wandeling en een GPS track.  Deze blog is volledig gemaakt met vrije software. 
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Wandelingen met kinderen
 
 # A list of keywords for your blog
 keywords:              [wandelen, kinderen, blog, kindvriendelijk]
@@ -49,11 +48,11 @@ author:
   github:              vlonder
 # Add links to the sidebar.
 menu:
-  - title:             Vlonder
-    url:               /example/
-  - title:             Gereedschapskist
+  - title:             Wandelingen
+    url:               /wandelingen/
+  - title:             Tips voor onderweg
     url:               /docs/
-  - title:             Meta
+  - title:             For Geeks
     url:               /docs/
   - title:             Over
     url:               /about/
@@ -76,7 +75,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /:num/
+paginate_path:         /wandelingen/:num/
 
 
 # Collections
@@ -108,12 +107,12 @@ theme: jekyll-theme-hydejack
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(78,93,44)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(8,46,57)
+#theme_color:           rgb(8,46,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>

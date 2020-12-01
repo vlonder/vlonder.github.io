@@ -17,57 +17,35 @@
 }
 
 
-.star-ratings-css {
+.rating {
+  display: inline-block;
   unicode-bidi: bidi-override;
-  color: #c5c5c5;
+  color: #888888;
   font-size: 25px;
   height: 25px;
-  width: 100px;
-  margin: 0 auto;
+  width: auto;
+  margin: 0;
   position: relative;
-  text-shadow: 0 1px 0 #a2a2a2;
-  } 
-  .star-ratings-css::before { 
-    content: '★★★★';
-    opacity: .3;
-  }
+  padding: 0;
+}
 
-  [score=".000"]::after {
-    width: 0%;
-  }
-  [title=".125"]::after {
-    width: 12.5%;
-  }
-  [title=".250"]::after {
-    width: 25%;
-  }
-  [title=".375"]::after {
-    width: 37.5%;
-  }
-  [title=".500"]::after {
-    width: 50%;
-  }
-  [title=".625"]::after {
-    width: 62.5%;
-  }
-  [title=".750"]::after {
-    width: 75%;
-  }
-  [title=".875"]::after {
-    width: 87.5%;
-  }
-  .star-ratings-css::after {
-    color: gold;
-    content: '★★★★';
-    text-shadow: 0 1px 0 #ab5414;
-    position: absolute;
-    z-index: 1;
-    display: block;
-    left: 0;
-    top:0;
-    width: attr(rating);
-    overflow: hidden;
-  }
+.rating-upper {
+  color: #c52b2f;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.rating-lower {
+  padding: 0;
+  display: flex;
+  z-index: 0;
+}
+
 
 .date-header ul {
 	border-radius: 0;

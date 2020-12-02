@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Drongengoedbos 
-rating:  a, b
+rating:   deciduous_tree,herb
 image: 
  path: /assets/img/blog/drongengoedbos.jpg
  srcset:

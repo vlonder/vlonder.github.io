@@ -29,7 +29,7 @@
 		<li>
 {% assign cheeses = post.rating | split: ','%}			
 {% for product in cheeses %}
-			<span> {{ product }} </span>
+			<span> :{{ product }}:</span>
 {% else %}
   
 {% endfor %}

@@ -14,12 +14,10 @@
 	
 	  
 	
-	<div class="date-header">
+	<div class="post-date"> 
     <ul>
 		<li>
-	 		<span class="post-date"> 
-				<span class="align_left">
-					{% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
+	 			{% assign post_format = site.data.strings.date_formats.post | default:"%d %b %Y" %}
       			<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date:post_format }}</time>
       			{% assign category_start     = site.data.strings.category_start     | default:"in " %}
       			{% assign tag_start          = site.data.strings.tag_start          | default:"on " %}
@@ -27,26 +25,9 @@
       			{% assign tag_separator      = site.data.strings.tag_separator      | default:", "  %}
       			{% include components/tag-list.html tags=post.categories meta=site.featured_categories start_with=category_start separator=category_separator %}
       			{% include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %} 
-				</span>
-			</span>   
 		</li>
 		<li>
-			<div class="post-date">  
-				<div class="align_right">
-					<div class="rating">
-    					<div class="rating-upper" style="width: 50%">
-        					<span>★</span>
-        					<span>★</span>
-       						 <span>★</span>
-    					</div>
-   					 <div class="rating-lower">
-      					  <span>★</span>
-        					<span>★</span>
-        					<span>★</span>
-       						  						</div>
-</div>
-				</div>
-			</div>
+				*** :bowtie:				
 		</li>
 	</ul>
 	</div>

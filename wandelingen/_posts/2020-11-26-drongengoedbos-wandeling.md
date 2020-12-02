@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Drongengoedbos 
-rating: 0.5
+rating:  a, b
 image: 
  path: /assets/img/blog/drongengoedbos.jpg
  srcset:

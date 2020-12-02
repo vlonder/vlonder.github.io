@@ -27,7 +27,15 @@
       			{% include components/tag-list.html tags=post.tags meta=site.featured_tags start_with=tag_start separator=tag_separator %} 
 		</li>
 		<li>
-				*** :bowtie:				
+{% assign cheeses = post.rating | split: ','%}			
+{% for product in cheeses %}
+			<span> {{ product }} </span>
+{% else %}
+  
+{% endfor %}
+
+
+			
 		</li>
 	</ul>
 	</div>

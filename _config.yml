@@ -39,7 +39,8 @@ logo:
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  # Used by `jekyll-feed`:
+  # Used by `jekyll-feed`:57
+
   name:                Bart Van Giel
   email:               bart.vangiel@gmail.com
   # # Used by `jekyll-seo-tag`:
@@ -110,7 +111,7 @@ accent_color:          rgb(187,207,170)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
-# Defaults to `accent_color`.257
+# Defaults to `accent_color`.
 #theme_color:           rgb(8,46,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
@@ -179,7 +180,7 @@ kramdown:
   math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
-257
+
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------

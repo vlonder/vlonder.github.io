@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Drongengoedbos 
+categories: wandelingen
 image: 
  path: /assets/img/blog/drongengoedbos.jpg
  srcset:

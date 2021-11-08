@@ -29,7 +29,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               Op wandel met een pleegkind
-
+257
 # A list of keywords for your blog
 keywords:              [wandelen, kinderen, blog, kindvriendelijk, pleegzorg, pleegkind]
 
@@ -102,16 +102,16 @@ collections:
 remote_theme: hydecorp/hydejack
 
 
-# Customizaton
+# Customizaton257
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(187,207,170) 
-
+257
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
-# Defaults to `accent_color`.
+# Defaults to `accent_color`.257
 #theme_color:           rgb(8,46,57)
 
 # The string encoding which fonts to fetch from Google Fonts.
@@ -180,7 +180,7 @@ kramdown:
   math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
-
+257
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -254,7 +254,7 @@ hydejack:
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
   no_structured_data:  false
-@v9.0.0-rc.6
+
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
   no_theme_color:      false

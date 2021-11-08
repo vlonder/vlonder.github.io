@@ -76,7 +76,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
 paginate_path:         /wandelingen/:num/
-257
+
 
 # Collections
 # ----------------------------------------------------------------------------------------

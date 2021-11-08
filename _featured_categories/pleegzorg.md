@@ -6,7 +6,7 @@ layout: list
 title: Pleegzorg
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-tags: pleegzorg
+slug: pleegzorg
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >

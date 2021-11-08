@@ -75,14 +75,14 @@ permalink:             /:categories/:year-:month-:day-:title/
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
 paginate_path:         /wandelingen/:num/
-
+257
 
 # Collections
 # ----------------------------------------------------------------------------------------
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /:name/257
     output:            true
 
   featured_tags:
@@ -107,7 +107,7 @@ remote_theme: hydecorp/hydejack
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(187,207,170) 
-257
+
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.257

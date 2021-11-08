@@ -25,13 +25,13 @@ title:                 Vlonder
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Vlonder is een blog over kindvriendelijke wandelingen.  In de blogposts vind je een review van de wandeling en een GPS track.  Deze blog is volledig gemaakt met vrije software. 
+  Vlonder is een blog over wandelen en over pleegzorg.  Deze blog is volledig gemaakt met vrije software. 
 
 # A shorter description for the sidebar.
-tagline:               Wandelingen met kinderen
+tagline:               Op wandel met een pleegkind
 
 # A list of keywords for your blog
-keywords:              [wandelen, kinderen, blog, kindvriendelijk]
+keywords:              [wandelen, kinderen, blog, kindvriendelijk, pleegzorg, pleegkind]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -50,10 +50,10 @@ author:
 menu:
   - title:             Wandelingen
     url:               /wandelingen/
-  - title:             Tips voor onderweg
-    url:               /docs/
-  - title:             For Geeks
-    url:               /docs/
+  - title:             Pleegzorg
+    url:               /pleegzorg/
+  - title:             Bloggen en zo
+    url:               /bloggen/
   - title:             Over
     url:               /about/
 
@@ -68,7 +68,7 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2020. All rights reserved.
+copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -99,7 +99,7 @@ collections:
 # ---------------------------------------------------------------------------------------
 
 #theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+remote_theme: hydecorp/hydejack
 
 
 # Customizaton
@@ -248,13 +248,13 @@ hydejack:
   # Note that this will not affect the Table of Contents, use `no_toc` instead.
   no_third_column:     false
 
-  # Set to `true` if you don't like oversized headlines on large screens.
+  # Set to `true` if you don't like oversized headlines @v9.0.0-rc.6on large screens.
   no_large_headings:   false
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
   no_structured_data:  false
-
+@v9.0.0-rc.6
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
   no_theme_color:      false
